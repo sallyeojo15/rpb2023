@@ -1,2 +1,2 @@
 # rpb2023
-sallyeojo team account
+This is a project repo for team 15(sallyeojo)
