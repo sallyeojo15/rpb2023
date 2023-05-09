@@ -25,7 +25,7 @@ class DetermineColor:
       pixel=[]
       for i in range(img_horizental):
         for j in range(img_vertical):
-          pixel.append(img[i,j])
+          pixel.append(tuple(img[i,j]))
     
       pixel_set=set(pixel)
       
