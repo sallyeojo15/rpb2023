@@ -20,7 +20,7 @@ class DetermineColor:
       msg = Header()
       msg = data.header
       msg.frame_id = '0'
-      img=cv2.imread(image)
+      img=image
       img_horizental, img_vertical = img.shape[0], img.shape[1]
       pixel=[]
       for i in range(img_horizental):
